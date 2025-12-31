@@ -23,12 +23,12 @@ const ExpertLoginPage: React.FC = () => {
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg flex items-center justify-center">
               <img
-                src="/assets/humpstac_logo_bgblack.png"
+                src="/assets/crospex_logo_bgblack.png"
                 alt="Logo"
                 className="w-10 h-10 md:w-16 md:h-16 rounded-xl object-contain scale-125 md:scale-120"
               />
             </div>
-            <span className="text-xl font-bold tracking-tight text-white">Kurospex</span>
+            <span className="text-xl font-bold tracking-tight text-white">Crospex</span>
           </div>
         </Link>
       </nav>
@@ -100,7 +100,7 @@ const ExpertLoginPage: React.FC = () => {
 
             <div className="mt-8 pt-8 border-t border-slate-800">
               <p className="text-xs text-slate-500 leading-relaxed">
-                By continuing, you agree to Kurospex's <a href="#" className="text-slate-400 hover:text-white underline underline-offset-4">Terms of Service</a> and <a href="#" className="text-slate-400 hover:text-white underline underline-offset-4">Privacy Policy</a>.
+                By continuing, you agree to Crospex's <a href="#" className="text-slate-400 hover:text-white underline underline-offset-4">Terms of Service</a> and <a href="#" className="text-slate-400 hover:text-white underline underline-offset-4">Privacy Policy</a>.
               </p>
             </div>
           </div>

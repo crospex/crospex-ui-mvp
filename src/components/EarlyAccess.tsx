@@ -17,7 +17,7 @@ const EarlyAccess: React.FC = () => {
 
           <p className="text-lg text-slate-600 mb-8 leading-relaxed">
             We’re onboarding a small number of infrastructure inspection teams to
-            validate Kurospex’s synthetic defect amplification and programmatic
+            validate Crospex’s synthetic defect amplification and programmatic
             labeling pipeline on real inspection data.
             <br />
             Design partners receive <span className="italic">

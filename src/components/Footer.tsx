@@ -12,12 +12,12 @@ const Footer: React.FC = () => {
             <div className="flex items-center gap-2 mb-2">
               <div className="w-10 h-10 rounded-lg flex items-center justify-center">
                 <img
-                  src="/assets/humpstac_logo_bgwhite.png"
+                  src="/assets/crospex_logo_bgwhite.png"
                   alt="Logo"
                   className="w-16 h-16 rounded-xl object-contain scale-125"
                 />
               </div>
-              <span className="text-2xl font-bold tracking-tight text-slate-900">kurospex</span>
+              <span className="text-2xl font-bold tracking-tight text-slate-900">Crospex</span>
             </div>
             <p className="text-sm text-slate-500 max-w-xs leading-relaxed">
               Transforming raw inspection data into high-recall perception datasets.

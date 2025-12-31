@@ -27,12 +27,12 @@ const PilotPage: React.FC = () => {
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg flex items-center justify-center">
               <img
-                src="/assets/humpstac_logo_bgblack.png"
+                src="/assets/crospex_logo_bgblack.png"
                 alt="Logo"
                 className="w-10 h-10 md:w-16 md:h-16 rounded-xl object-contain scale-125 md:scale-120"
               />
             </div>
-            <span className="text-xl font-bold tracking-tight text-white">Kurospex</span>
+            <span className="text-xl font-bold tracking-tight text-white">Crospex</span>
           </div>
         </Link>
       </nav>
@@ -102,7 +102,7 @@ const PilotPage: React.FC = () => {
                 <input
                   required
                   type="text"
-                  placeholder="Eg. kurospex ai"
+                  placeholder="Eg. Crospex ai"
                   className="w-full bg-slate-950/50 border border-slate-800 rounded-xl px-4 py-3.5 text-white placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
                 />
               </div>
