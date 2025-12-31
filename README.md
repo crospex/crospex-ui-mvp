@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./public/assets/humpstac_logo_bgblack.png" 
+  <img src="./public/assets/crospex_logo_bgblack.png" 
       alt="Kurospex Logo" 
       width="200" 
       style="margin-bottom: 2rem; border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.25);">
