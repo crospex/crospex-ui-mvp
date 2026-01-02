@@ -44,9 +44,9 @@ const Deliverables: React.FC = () => {
             <div className="inline-flex items-center px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase bg-emerald-500/10 text-emerald-600 border border-emerald-500/20">
               Deliverables
             </div>
-            <h2 className="text-4xl font-bold text-slate-900 tracking-tight leading-tight">
+            <h2 className="text-5xl font-bold text-slate-900 tracking-tight leading-tight">
               High-Fidelity <br />
-              <span className="text-primary">Perception Assets</span>
+              <span className="text-primary-dark">Perception Assets</span>
             </h2>
             <p className="text-lg text-slate-600 leading-relaxed">
               We deliver pure, validated data. No complex dashboards or proprietary platforms required. Just the ground truth your models need.

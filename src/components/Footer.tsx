@@ -100,7 +100,7 @@ const Footer: React.FC = () => {
 };
 
 const SocialIcon = ({ icon }: { icon: string }) => (
-  <div className="w-8 h-8 bg-white border border-slate-200 rounded-lg flex items-center justify-center text-slate-600 hover:border-[#6366F1] hover:text-[#6366F1] cursor-pointer transition-all">
+  <div className="w-8 h-8 bg-white border border-slate-200 rounded-lg flex items-center justify-center text-slate-600 hover:border-primary hover:text-primary cursor-pointer transition-all">
     {icon}
   </div>
 );

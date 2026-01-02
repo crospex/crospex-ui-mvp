@@ -48,7 +48,7 @@ const Solution: React.FC = () => {
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight leading-tight">
               Bridging the Gap Between <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-indigo-400">Physical Reality</span> and AI
+              <span className="text-primary-dark bg-clip-text bg-gradient-to-r from-primary to-indigo-400">Physical Reality</span> and AI
             </h2>
             <p className="text-lg text-slate-400 leading-relaxed">
               We solve the "rare defect" problem. By combining your real-world asset data with our synthetic amplification engine, we build datasets that prepare your models for the most critical, low-frequency failure modes.

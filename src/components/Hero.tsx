@@ -17,8 +17,8 @@ const Hero: React.FC = () => {
           className="absolute inset-0 opacity-[0.15]"
           style={{
             backgroundImage: `
-              linear-gradient(to right, #6366F1 1px, transparent 1px),
-              linear-gradient(to bottom, #6366F1 1px, transparent 1px)
+              linear-gradient(to right, var(--primary) 1px, transparent 1px),
+              linear-gradient(to bottom, var(--primary) 1px, transparent 1px)
             `,
             backgroundSize: '70px 70px',
             maskImage: 'radial-gradient(circle at center, black, transparent 80%)',
@@ -27,8 +27,8 @@ const Hero: React.FC = () => {
         ></div>
 
         {/* Subtle Accent Blobs */}
-        <div className="absolute -top-[10%] -left-[10%] w-[50%] h-[50%] bg-[#6366F1]/5 rounded-full blur-[120px] animate-pulse"></div>
-        <div className="absolute -bottom-[10%] -right-[10%] w-[50%] h-[50%] bg-[#8B5CF6]/5 rounded-full blur-[120px] animate-pulse" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute -top-[10%] -left-[10%] w-[50%] h-[50%] bg-primary/5 rounded-full blur-[120px] animate-pulse"></div>
+        <div className="absolute -bottom-[10%] -right-[10%] w-[50%] h-[50%] bg-accent/5 rounded-full blur-[120px] animate-pulse" style={{ animationDelay: '2s' }}></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 flex flex-col items-center text-center">
@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
             Apply for Design Partner Pilot
             <ArrowRight className="ml-2 w-5 h-5" />
           </Link>
-          <Link 
+          <Link
             to="/expert-login"
             className="w-full sm:w-auto flex items-center justify-center px-10 py-5 text-base font-semibold rounded-xl text-slate-700 bg-white border border-slate-200 hover:bg-primary/20 transition-all hover:border-slate-300"
           >
