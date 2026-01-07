@@ -36,7 +36,7 @@ const Deliverables: React.FC = () => {
   ];
 
   return (
-    <section className="py-24 bg-slate-50/50 border-y border-slate-100">
+    <section className="py-24 bg-slate-50/90 border-y border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-3 gap-12 items-start">
           {/* Left Column: Sticky Header */}

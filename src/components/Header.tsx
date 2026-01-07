@@ -32,7 +32,7 @@ const Header: React.FC = () => {
             <img
               src="/assets/crospex_logo_bgwhite.png"
               alt="Logo"
-              className="w-10 h-10 md:w-10 md:h-10 rounded-xl object-contain"
+              className="w-10 h-10 md:w-10 md:h-10 mt-1 rounded-xl object-contain"
             />
             <span className="text-3xl font-bold tracking-tight text-slate-900">
               crospex
@@ -66,9 +66,9 @@ const Header: React.FC = () => {
             <Link
               to="/pilot"
               className="inline-flex items-center px-5 py-2.5 text-sm font-bold rounded-lg transition-all
-          text-white bg-primary hover:bg-primary-dark shadow-md shadow-primary/20"
+          text-white bg-[#4c4ff3] hover:bg-primary-dark shadow-md shadow-primary/20"
             >
-              Request Demo
+              Book a Demo
             </Link>
           </div>
         </div>

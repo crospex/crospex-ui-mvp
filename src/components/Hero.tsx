@@ -49,9 +49,9 @@ const Hero: React.FC = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-5 w-full sm:w-auto">
           <Link
             to="/pilot"
-            className="w-full sm:w-auto flex items-center justify-center px-10 py-5 text-base font-bold rounded-xl text-white bg-primary hover:bg-primary-dark transition-all shadow-xl shadow-primary/25 hover:-translate-y-0.5"
+            className="w-full sm:w-auto flex items-center justify-center px-10 py-5 text-base font-bold rounded-xl text-white bg-[#4c4ff3] hover:bg-primary-dark transition-all shadow-xl shadow-primary/25 hover:-translate-y-0.5"
           >
-            Get in Touch
+            Request Inspection Data Pilot
             <ArrowRight className="ml-2 w-5 h-5" />
           </Link>
           <Link
