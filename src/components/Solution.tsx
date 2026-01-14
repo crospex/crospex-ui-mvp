@@ -48,7 +48,7 @@ const Solution: React.FC = () => {
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight leading-tight">
               Bridging the Gap Between <br />
-              <span className="text-primary-dark bg-clip-text bg-gradient-to-r from-primary to-indigo-400">Physical Reality</span> and AI
+              <span className="text-primary-dark bg-clip-text bg-linear-to-r from-primary to-indigo-400">Physical Reality</span> and AI
             </h2>
             <p className="text-lg text-slate-400 leading-relaxed">
               We solve the "rare defect" problem. By combining your real-world asset data with our synthetic amplification engine, we build datasets that prepare your models for the most critical, low-frequency failure modes.
@@ -57,7 +57,7 @@ const Solution: React.FC = () => {
           <div className="hidden lg:block pb-2">
             <div className="flex items-center gap-4 text-sm font-bold text-slate-500 uppercase tracking-widest">
               <span>The Pipeline</span>
-              <div className="w-24 h-[1px] bg-slate-800"></div>
+              <div className="w-24 h-px bg-slate-800"></div>
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@ const Solution: React.FC = () => {
 
         {/* Feature Highlight Box */}
         <div className="mt-24 relative group">
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-primary/20 to-indigo-500/20 rounded-3xl blur opacity-50 group-hover:opacity-100 transition duration-1000"></div>
+          <div className="absolute -inset-0.5 bg-linear-to-r from-primary/20 to-indigo-500/20 rounded-3xl blur opacity-50 group-hover:opacity-100 transition duration-1000"></div>
           <div className="relative bg-slate-900/50 backdrop-blur-xl border border-white/5 p-8 md:p-12 rounded-3xl flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="max-w-xl">
               <h4 className="text-2xl font-bold text-white mb-3">Optimized for Real-World Recall</h4>

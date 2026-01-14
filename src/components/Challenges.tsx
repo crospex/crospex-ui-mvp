@@ -41,7 +41,7 @@ const Challenges: React.FC = () => {
           <div className="max-w-3xl mb-20">
             <h2 className="text-sm font-bold tracking-wider text-primary uppercase mb-4">The Challenge</h2>
             <h3 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">
-              Why Inspection AI Fails in the <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Real World</span>
+              Why Inspection AI Fails in the <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-accent">Real World</span>
             </h3>
             <p className="text-xl text-slate-600 leading-relaxed">
               Traditional AI approaches struggle with the complexity and unpredictability of infrastructure inspection. We've identified the core bottlenecks.
@@ -54,7 +54,7 @@ const Challenges: React.FC = () => {
                 key={idx}
                 className="group relative p-8 rounded-2xl border border-slate-100 bg-white hover:border-primary/20 hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500"
               >
-                <div className={`absolute inset-0 bg-gradient-to-br ${p.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl`} />
+                <div className={`absolute inset-0 bg-linear-to-br ${p.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl`} />
 
                 <div className="relative z-10">
                   <div className="mb-6 p-3 bg-bg-soft rounded-xl w-fit group-hover:scale-110 transition-transform duration-500">
@@ -67,7 +67,7 @@ const Challenges: React.FC = () => {
                     to="#"
                     className="group inline-flex"
                   >
-                    <div className="flex items-center text-primary font-semibold opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-x-[-10px] group-hover:translate-x-0">
+                    <div className="flex items-center text-primary font-semibold opacity-0 group-hover:opacity-100 transition-all duration-500 transform -translate-x-2.5 group-hover:translate-x-0">
                       Learn more <ArrowRight className="ml-2 w-4 h-4" />
                     </div>
                   </Link>

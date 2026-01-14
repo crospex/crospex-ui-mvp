@@ -55,7 +55,7 @@ const TargetAudience: React.FC = () => {
         ></div>
 
         {/* Soft Radial Gradient for Depth */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,_transparent_0%,_#ffffff_100%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,transparent_0%,#ffffff_100%)]"></div>
 
         {/* Very Subtle Accent Blobs */}
         <div className="absolute -top-24 -left-24 w-96 h-96 bg-primary/5 rounded-full blur-[100px]"></div>
@@ -68,7 +68,7 @@ const TargetAudience: React.FC = () => {
             Target Sectors
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 tracking-tight">
-            Precision Data for <span className="text-primary-dark bg-clip-text bg-gradient-to-r from-primary to-accent">High-Stakes</span> Environments
+            Precision Data for <span className="text-primary-dark bg-clip-text bg-linear-to-r from-primary to-accent">High-Stakes</span> Environments
           </h2>
           <p className="text-xl text-slate-600 leading-relaxed">
             We partner with enterprise teams where detection failures aren't just bugs—they're critical risks. Our pipeline is tuned for the specific noise and complexity of industrial data.

@@ -30,12 +30,12 @@ const Header: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center cursor-pointer">
             <img
-              src="/assets/crospex_logo_bgwhite.png"
+              src="/assets/crospec_logo_bgwhite.png"
               alt="Logo"
               className="w-10 h-10 md:w-10 md:h-10 mt-1 rounded-xl object-contain"
             />
             <span className="text-3xl font-bold tracking-tight text-slate-900">
-              crospex
+              crospec
             </span>
           </Link>
 

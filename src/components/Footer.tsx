@@ -12,12 +12,12 @@ const Footer: React.FC = () => {
             <div className="flex items-center mb-2">
               <div className="w-10 h-10 rounded-lg flex items-center justify-center">
                 <img
-                  src="/assets/crospex_logo_bgwhite.png"
+                  src="/assets/crospec_logo_bgwhite.png"
                   alt="Logo"
                   className="w-14 h-14 rounded-xl object-contain"
                 />
               </div>
-              <span className="text-3xl font-bold tracking-tight text-slate-900">crospex</span>
+              <span className="text-3xl font-bold tracking-tight text-slate-900 mb-1.5">crospec</span>
             </div>
             <p className="text-sm text-slate-500 max-w-xs leading-relaxed">
               Transforming raw inspection data into high-recall perception datasets.
@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold text-slate-900 uppercase tracking-widest mb-5 mt-1">Our Approach</h4>
+            <h4 className="text-xs font-bold text-slate-900 uppercase tracking-widest mb-5 mt-2">Our Approach</h4>
             <ul className="space-y-3 text-sm text-slate-500 ">
               <li><a href="#approach" className="text-sm text-slate-500 hover:text-primary transition-colors">Data Ingestion</a></li>
               <li><a href="#approach" className="text-sm text-slate-500 hover:text-primary transition-colors">Synthetic Amplification</a></li>
@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold text-slate-900 uppercase tracking-widest mb-5">Audience</h4>
+            <h4 className="text-xs font-bold text-slate-900 uppercase tracking-widest mb-5 mt-2">Audience</h4>
             <ul className="space-y-3 text-sm text-slate-500">
               <li><a href="#audience" className="text-sm text-slate-500 hover:text-primary transition-colors">Power & Utilities</a></li>
               <li><a href="#audience" className="text-sm text-slate-500 hover:text-primary transition-colors">Oil & Gas</a></li>
@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold text-slate-900 uppercase tracking-widest mb-5">Company</h4>
+            <h4 className="text-xs font-bold text-slate-900 uppercase tracking-widest mb-5 mt-2">Company</h4>
             <ul className="space-y-3 text-sm text-slate-500">
               <li><a href="#audience" className="text-sm text-slate-500 hover:text-primary transition-colors">About Us</a></li>
               <li><a href="#audience" className="text-sm text-slate-500 hover:text-primary transition-colors">Blog & Research</a></li>
@@ -83,7 +83,7 @@ const Footer: React.FC = () => {
 
         <div className="pt-8 border-t border-primary/10 flex flex-col md:flex-row justify-between items-center text-xs text-slate-400 gap-4">
           <div className="flex items-center space-x-1 text-slate-500">
-            <span>© {currentYear} kurospec AI. All rights reserved.</span>
+            <span>© {currentYear} crospec AI. All rights reserved.</span>
           </div>
           <div className="flex flex-wrap text-slate-500 items-center gap-x-2 gap-y-1">
             <span className="text-slate-500">•</span>

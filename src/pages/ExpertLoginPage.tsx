@@ -16,12 +16,12 @@ const ExpertLoginPage: React.FC = () => {
           <div className="flex items-center">
             <div className="w-8 h-8 rounded-lg flex items-center justify-center">
               <img
-                src="/assets/crospex_logo_bgblack.png"
+                src="/assets/crospec_logo_bgblack.png"
                 alt="Logo"
                 className="w-12 h-12 md:w-14 md:h-14 rounded-xl object-contain"
               />
             </div>
-            <span className="text-xl font-bold tracking-tight text-white">Crospex</span>
+            <span className="text-xl font-bold tracking-tight text-white">crospec</span>
           </div>
         </Link>
       </nav>
@@ -34,7 +34,7 @@ const ExpertLoginPage: React.FC = () => {
               Expert Network
             </div>
             <h1 className="text-4xl lg:text-6xl font-bold text-white tracking-tight leading-[1.1] mb-6">
-              Validate the Future of <span className="text-primary-dark bg-clip-text bg-gradient-to-r from-primary to-indigo-400">Industrial Inspection AI</span>
+              Validate the Future of <span className="text-primary-dark bg-clip-text bg-linear-to-r from-primary to-indigo-400">Industrial Inspection AI</span>
             </h1>
             <p className="text-lg text-slate-400 leading-relaxed max-w-md">
               Join a vetted network of certified domain experts validating high-stakes inspection datasets used in critical infrastructure systems.            </p>
@@ -73,7 +73,7 @@ const ExpertLoginPage: React.FC = () => {
 
         {/* Right Column: Login */}
         <div className="relative group">
-          <div className="absolute -inset-1 bg-gradient-to-r from-primary/20 to-indigo-500/20 rounded-3xl blur opacity-75"></div>
+          <div className="absolute -inset-1 bg-linear-to-r from-primary/20 to-indigo-500/20 rounded-3xl blur opacity-75"></div>
           <div className="relative bg-slate-900/50 backdrop-blur-xl border border-slate-800 p-8 lg:p-12 rounded-3xl shadow-2xl text-center">
             <div className="mb-8">
               <div className="w-16 h-16 bg-slate-800 rounded-2xl flex items-center justify-center mx-auto mb-6 border border-slate-700">
@@ -93,7 +93,7 @@ const ExpertLoginPage: React.FC = () => {
 
             <div className="mt-8 pt-8 border-t border-slate-800">
               <p className="text-xs text-slate-500 leading-relaxed">
-                By continuing, you agree to Crospex's <a href="#" className="text-slate-400 hover:text-white underline underline-offset-4">Terms of Service</a> and <a href="#" className="text-slate-400 hover:text-white underline underline-offset-4">Privacy Policy</a>.
+                By continuing, you agree to crospek's <a href="#" className="text-slate-400 hover:text-white underline underline-offset-4">Terms of Service</a> and <a href="#" className="text-slate-400 hover:text-white underline underline-offset-4">Privacy Policy</a>.
               </p>
             </div>
           </div>
@@ -101,7 +101,7 @@ const ExpertLoginPage: React.FC = () => {
       </main>
 
       <footer className="relative z-10 max-w-7xl mx-auto px-6 py-12 border-t border-slate-900/50 flex flex-col md:flex-row justify-between items-center gap-6">
-        <p className="text-sm text-slate-500">© 2025 Kurospec AI. All rights reserved.</p>
+        <p className="text-sm text-slate-500">© 2025 Crospec AI. All rights reserved.</p>
         <div className="flex gap-8 text-sm text-slate-500">
           <a href="#" className="hover:text-white transition-colors">Privacy</a>
           <a href="#" className="hover:text-white transition-colors">Terms</a>
